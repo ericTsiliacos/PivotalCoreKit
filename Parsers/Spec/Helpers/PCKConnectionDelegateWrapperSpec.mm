@@ -1,10 +1,4 @@
 #import <Foundation/Foundation.h>
-#if TARGET_OS_IPHONE
-#import "SpecHelper.h"
-#else
-#import <Cedar/SpecHelper.h>
-#endif
-
 #import "PCKConnectionDelegateWrapper.h"
 #import "PSHKFakeHTTPURLResponse.h"
 #import "NSURLConnection+Spec.h"
